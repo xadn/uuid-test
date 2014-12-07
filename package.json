@@ -1,0 +1,22 @@
+{
+  "name": "uuid-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xadn/uuid-test.git"
+  },
+  "author": "",
+  "license": "?",
+  "bugs": {
+    "url": "https://github.com/xadn/uuid-test/issues"
+  },
+  "homepage": "https://github.com/xadn/uuid-test",
+  "devDependencies": {
+    "lodash": "^2.4.1"
+  }
+}
