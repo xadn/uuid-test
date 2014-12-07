@@ -15,11 +15,11 @@ function collide(file, uuidFn) {
 
   for (var i = 0; i < MAX_ITERATIONS; i++) {
     if (_.indexOf(uuids, uuidFn(), true) !== -1) {
-      console.log('collision generated after', i, 'iterations');
-      process.exit(1);
+      console.log('💥  KABOOM!!! Collision generated after', i, 'iterations.');
+      process.exit(0);
     }
   }
-  console.log('no collisions detected after', MAX_ITERATIONS, 'iterations')
+  console.log('No collisions detected after', MAX_ITERATIONS, 'iterations. 😄')
   process.exit(0);
 }
 

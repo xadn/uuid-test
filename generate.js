@@ -8,11 +8,11 @@ function generate(uuidFn, len) {
     values[i] = uuidFn();
   }
 
-  process.stdout.write(values.sort().join('\n') + '\n');
+  process.stdout.write(values.join('\n') + '\n');
   process.exit(0);
 }
 
 var uuidFnName = process.argv[2];
-var len = process.argv[3];
+var len = Number(process.argv[3]);
 
-generate(lib[uuidFnName], Number(len));
+generate(lib[uuidFnName], len);
